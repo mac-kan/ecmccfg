@@ -488,6 +488,11 @@
       "encoder.positionFilterEnable": {
         "type": "boolean",
         "required": false
+      },
+      "encoder.allowOverUnderFlow": {
+        "type": "boolean integer string",
+        "required": false,
+        "normalize": "(string=boolean) yes=true no=false"
       }
     }
   },
